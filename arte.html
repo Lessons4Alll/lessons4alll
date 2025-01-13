@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso de Artes Plásticas | Lessons4All</title>
+  <link rel="stylesheet" href="styleingles.css">
+  <style>
+    /* Ajustamos colores y tipografía al estilo anterior */
+    body {
+      font-family: math;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa; /* Fondo claro */
+      color: #333;
+    }
+
+    .header {
+      background-color: #935FA7; /* Morado vivo como en la cabecera de index */
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    .header .logo {
+      height: 80px;
+      border-radius: 50%;
+
+    }
+
+    .hero {
+      background-color: #d8fbd8; /* Verde claro */
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .hero h1 {
+      color: #333;
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      color: #555;
+      margin-top: 1rem;
+    }
+
+    .btn-primary {
+      background-color: #6a0dad; /* Morado vivo */
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 1rem;
+      display: inline-block;
+    }
+
+    .btn-primary:hover {
+      background-color: #4a007b; /* Morado más oscuro */
+    }
+
+    .learn {
+      background-color: #B594B6; /* Fondo gris claro */
+      padding: 2rem 1rem;
+    }
+
+    .learn h2 {
+      color: #6a0dad;
+      text-align: center;
+    }
+
+    .learn-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .learn-item {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .learn-item img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover; 
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .cost {
+      background-color: #d8fbd8;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .cost p {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      color: #333;
+    }
+
+    .form-section {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #6a0dad;
+      padding: 1.5rem;
+      color: white;
+      text-align: center;
+    }
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    .whatsapp-float img {
+      width: 35px;
+      height: 35px;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #1da851;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img src="images/logo.jpg" alt="Logo Lessons4All" class="logo">
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Curso de Artes Plásticas</h1>
+    <p>En nuestro curso de artes plásticas, te guiaremos para desarrollar tu creatividad y dominar las técnicas esenciales del dibujo y la pintura.</p>
+    <a href="#form" class="btn-primary">¡Inscríbete ahora!</a>
+  </section>
+
+  <!-- ¿Qué aprenderás? -->
+  <section class="learn">
+    <h2>¿Qué aprenderás?</h2>
+    <div class="learn-content">
+      <div class="learn-item">
+        <img src="images/arte1.jpg" alt="Vocabulario">
+        <h3>Expresar tu creatividad</h3>
+        <p>Aprenderás a plasmar tus ideas y emociones a través del arte, explorando distintos estilos y medios artísticos.</p>
+      </div>
+      <div class="learn-item">
+        <img src="images/arte3.jpg" alt="Gramática">
+        <h3>Dominar técnicas artísticas</h3>
+        <p>Adquirirás habilidades prácticas en dibujo, pintura, composición y uso del color, aplicables a proyectos personales y profesionales.</p>
+      </div>
+      <div class="learn-item">
+        <img src="images/arte2.jpg" alt="Conversación">
+        <h3>Desarrollar tu propio estilo</h3>
+        <p>Te ayudaremos a encontrar y perfeccionar tu identidad artística, fortaleciendo tu confianza y capacidad expresiva.</p>
+      </div>
+    </div>
+    <!-- Botones con imágenes -->
+  <div class="pdf-links">
+    <a href="docs/planartes.pdf" target="_blank">
+      <img src="images/libro.png" alt="Plan de estudios" class="pdf-button">
+       <h3>Tu plan de estudios</h3>
+    </a>
+    <a href="docs/caminoartes.pdf" target="_blank">
+      <img src="images/ruta.png" alt="Ruta de aprendizaje" class="pdf-button">
+       <h3>Tu ruta de aprendizaje</h3>
+    </a>
+  </div>
+  </section>
+  <style>
+  .pdf-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .pdf-button {
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .pdf-button:hover {
+    transform: scale(1.1);
+  }
+</style>
+
+  <!-- Costo -->
+  <section class="cost">
+    <h2>Costo del Curso</h2>
+    <p>Solo <strong>$100,000 COP</strong></p>
+  </section>
+
+  <!-- Formulario -->
+  <section id="form" class="form-section">
+    <h2>¿Quieres inscribirte?</h2>
+    <p>Haz clic en el botón para completar tu inscripción en nuestro formulario.</p>
+    <a href="https://forms.gle/dKamgxZ2HnPiRNeK7" target="_blank" class="btn-primary">Ir al formulario</a>
+  </section>
+
+   <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/+573212250069" target="_blank" class="whatsapp-float">
+    <img src="images/whatsapp-icon.png" alt="WhatsApp">
+  </a>
+</body>
+</html>

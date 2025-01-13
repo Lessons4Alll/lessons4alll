@@ -1,0 +1,222 @@
+<style>
+    /* Reseteo general */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Estilo del cuerpo */
+    body {
+      font-family:'Math', serif;
+      line-height: 1.6;
+      background-color: #B594B6;
+      color: #38352E;
+    }
+
+    /* Encabezado */
+    header {
+      background-color: #935FA7;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-left: 1rem;
+    }
+
+    header .logo-img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.1rem;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .social-media {
+      display: flex;
+      gap: 1.5rem;
+      margin-right: 1 rem;
+    }
+
+    .social-btn {
+      color: #fff;
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .social-btn:hover {
+      color: #CB85A0;
+    }
+
+    /* Hero */
+    
+    .hero {
+      text-align: center;
+      padding: 3rem;
+      background-color: #A9FBC3;
+      color: #38352E;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn-cta {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background: #146156;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .btn-cta:hover {
+      background: #4F9150;
+    }
+
+    /* Cursos */
+    #cursos {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .cursos-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .curso {
+      background: #FFF;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .curso:hover {
+      transform: scale(1.05);
+    }
+
+    .curso-img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .curso h3 {
+      font-size: 1.5rem;
+      color: #146156;
+    }
+
+    .curso p {
+      margin: 0.5rem 0;
+    }
+
+    .curso a.btn {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background: #146156;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+
+    .curso a.btn:hover {
+      background: #B594B6;
+    }
+
+    /* Botón flotante de WhatsApp */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      background: #25D366;
+      color: #fff;
+      padding: 0.8rem;
+      border-radius: 50%;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .whatsapp-btn:hover {
+      background: #1DA851;
+    }
+
+    /* Footer */
+    footer {
+      background: #38352E;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    footer ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    footer ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    footer ul li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <!-- Font Awesome Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>

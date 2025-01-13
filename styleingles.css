@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  font-family: math;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+/* Header */
+.header {
+  background: #f8f8f8;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+  background-color:#d8fbd8;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.btn-primary {
+  background: #00b4d8;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background: #0077b6;
+}
+
+/* Learn Section */
+.learn {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.learn-content {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.learn-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.learn-item h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+/* Cost Section */
+.cost {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #f1f1f1;
+}
+
+.cost p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #333;
+  color: #fff;
+}
+
+.btn-whatsapp {
+  background: #25d366;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-whatsapp:hover {
+  background: #1da851;
+}

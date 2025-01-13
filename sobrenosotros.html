@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso de Artes Plásticas | Lessons4All</title>
+  <link rel="stylesheet" href="styleingles.css">
+  <style>
+    /* Ajustamos colores y tipografía al estilo anterior */
+    body {
+      font-family: math;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa; /* Fondo claro */
+      color: #333;
+    }
+
+    .header {
+      background-color: #935FA7; /* Morado vivo como en la cabecera de index */
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    .header .logo {
+      height: 80px;
+      border-radius: 50%;
+
+    }
+
+    .hero {
+      background-color: #d8fbd8; /* Verde claro */
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .hero h1 {
+      color: #333;
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      color: #555;
+      margin-top: 1rem;
+    }
+
+    .btn-primary {
+      background-color: #6a0dad; /* Morado vivo */
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 1rem;
+      display: inline-block;
+    }
+
+    .btn-primary:hover {
+      background-color: #4a007b; /* Morado más oscuro */
+    }
+
+    .learn {
+      background-color: #B594B6; /* Fondo gris claro */
+      padding: 2rem 1rem;
+    }
+
+    .learn h2 {
+      color: #6a0dad;
+      text-align: center;
+    }
+
+    .learn-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .learn-item {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .learn-item img {
+       width: 300px;
+      height: 300px;
+      object-fit: cover; 
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .cost {
+      background-color: #d8fbd8;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .cost p {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      color: #333;
+    }
+
+    .form-section {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #6a0dad;
+      padding: 1.5rem;
+      color: white;
+      text-align: center;
+    }
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    .whatsapp-float img {
+      width: 35px;
+      height: 35px;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #1da851;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img src="images/logo.jpg" alt="Logo Lessons4All" class="logo">
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>¿Quienes somos?</h1>
+    <p>Somos una academia con métodos innovadores que busca democratizar la educación, para que esta deje de ser un lujo y aún a bajo precio sea de la mejor calidad.</p>
+  </section>
+
+  <!-- ¿Qué aprenderás? -->
+  <section class="learn">
+    <h2>Nuestros docentes</h2>
+    <div class="learn-content">
+      <div class="learn-item">
+        <img src="images/tata.jpg" alt="Vocabulario">
+        <h3>Tatiana Bejarano</h3>
+        <p>loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum.</p>
+      </div>
+      <div class="learn-item">
+        <img src="images/lili.jpg" alt="Gramática">
+        <h3>Sandra Osorio</h3>
+        <p>loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum.</p>
+      </div>
+      <div class="learn-item">
+        <img src="images/logo.jpg" alt="Conversación">
+        <h3>David Salazar</h3>
+        <p>loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum.</p>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/+573212250069" target="_blank" class="whatsapp-float">
+    <img src="images/whatsapp-icon.png" alt="WhatsApp">
+  </a>
+</body>
+</html>
